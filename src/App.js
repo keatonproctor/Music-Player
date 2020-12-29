@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/app.scss';
+import data from './data';
 
 //Components
 import Player from './components/Player';
