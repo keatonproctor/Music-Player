@@ -20,11 +20,12 @@
     align-items: center;
     padding: 1rem 2rem 1rem 2rem;
     cursor: pointer;
+    transition: all 0.5s ease;
     img {
         width: 30%;
     }
     &:hover{
-        background-color: lightblue;
+        background-color: rgb(201, 201, 201);
     }
 }
 
@@ -55,9 +56,15 @@
 }
 
 .selected {
-    background: rgb(168, 185, 255);
+    background: rgb(134, 227, 146);
 }
 .active-library {
     transform: translateX(0%);
     opacity: 1;
+}
+
+@media screen and (max-width: 768px){
+    .library {
+        width: 100%;
+    }
 }
